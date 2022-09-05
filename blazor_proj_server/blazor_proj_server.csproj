@@ -12,4 +12,9 @@
   <ItemGroup>
     <Folder Include="Pages\Learn_Blazor\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\blazor_proj_class_files\blazor_proj_class_files.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

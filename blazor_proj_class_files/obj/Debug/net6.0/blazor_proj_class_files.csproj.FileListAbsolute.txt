@@ -1,0 +1,12 @@
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/bin/Debug/net6.0/blazor_proj_class_files.deps.json
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/bin/Debug/net6.0/blazor_proj_class_files.dll
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/bin/Debug/net6.0/blazor_proj_class_files.pdb
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/blazor_proj_class_files.csproj.AssemblyReference.cache
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/blazor_proj_class_files.GeneratedMSBuildEditorConfig.editorconfig
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/blazor_proj_class_files.AssemblyInfoInputs.cache
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/blazor_proj_class_files.AssemblyInfo.cs
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/blazor_proj_class_files.csproj.CoreCompileInputs.cache
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/blazor_proj_class_files.dll
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/refint/blazor_proj_class_files.dll
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/blazor_proj_class_files.pdb
+/Users/douglasherman/Projects/blazor_proj/blazor_proj_class_files/obj/Debug/net6.0/ref/blazor_proj_class_files.dll
