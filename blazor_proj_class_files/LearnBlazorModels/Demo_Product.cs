@@ -10,6 +10,8 @@ namespace blazor_proj_class_files.LearnBlazorModels
         public double Price { get; set; }
 
         public bool IsActive { get; set; }
+
+        public List<Demo_ProductProp>? ProductProperties { get; set; }
     }
 }
 
