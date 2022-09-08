@@ -11,10 +11,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\LearnBlazor\LearnBlazorComponents\" />
+    <Folder Include="wwwroot\JS\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\blazor_proj_class_files\blazor_proj_class_files.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\JS\" />
   </ItemGroup>
 </Project>
