@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Pages\Learn_Blazor\" />
+    <None Remove="Pages\Learn_Blazor\LearnBlazorComponents\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Learn_Blazor\" />
+    <Folder Include="Pages\LearnBlazor\LearnBlazorComponents\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\blazor_proj_class_files\blazor_proj_class_files.csproj">
