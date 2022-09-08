@@ -1,0 +1,39 @@
+﻿@page "/learnBlazor/learnRouting/{thing}"
+@page "/learnBlazor/learnRouting/{thing}/{parameter2}"
+@page "/learnBlazor/learnRouting"
+@page "/learnRouting"
+
+@inject NavigationManager _NavMgr
+
+<h3>LearnRouting</h3>
+
+<h4>Parameter 1: @Thing</h4>
+
+<h4>Parameter 2: @Parameter2</h4>
+
+<NavLink href="learnRouting?param1=doug&param2=kirby" class="btn btn-primary">go to query params</NavLink>
+<button class="btn btn-success" @onclick="LoadParams">load params</button>
+
+<br/>
+<h3>Query string params: </h3>
+<h5>    Param1: @Param1</h5>
+<h5>    Param2: @Param2</h5>
+
+@code {
+    [Parameter]
+    public string Thing { get; set; }
+    [Parameter]
+    public string Parameter2 { get; set; }
+    [Parameter]
+    public string Param1 { get; set; }
+    [Parameter]
+    public string Param2 { get; set; }
+
+    private void LoadParams()
+    {
+        var absoluteUri = new Uri(_NavMgr.Uri);
+        var queryParam = System.Web.HttpUtility.ParseQueryString(absoluteUri.Query);
+        Param1 = queryParam["param1"];
+        Param2 = queryParam["param2"];
+    }
+}

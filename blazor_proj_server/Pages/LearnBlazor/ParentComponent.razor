@@ -2,17 +2,26 @@
 
 <h3>Parent Child Relation</h3>
 
-<_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a param from the parent component">
-    Render frag from parent
-</_ChildComponent>
+<CascadingValue Value="@MessageForGrandchild" Name="message">
+    <CascadingValue Value="@LuckyNumber" Name="number">
+        <_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a param from the parent component">
+            <ChildContent>Render frag from parent</ChildContent>
+        </_ChildComponent>
+    </CascadingValue>
+</CascadingValue>
 
 <p><b>@MessageText</b></p>
 
-<_ChildComponent OnButtonClick="ShowMessage" Title="Second child component">
-</_ChildComponent>
+<_AnotherChildComponent placeholder="placeholder from parent"></_AnotherChildComponent>
+
 
 
 @code {
+
+    public string MessageForGrandchild { get; set; } = "Hello from your grandparent";
+
+    public string LuckyNumber { get; set; } = "69";
+
     public string MessageText { get; set; } = "";
 
     private void ShowMessage()

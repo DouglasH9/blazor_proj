@@ -3,14 +3,26 @@
     <div class="alert alert-info">@Title</div>
 </div>
 
-
-@if (ChildContent is not null)
+@if (DangerContent is not null)
 {
-    <div class="alert alert-success">
-        <span>@ChildContent</span>
-    </div>
+    <span>@DangerContent</span>
 }
+else
+{
+    @if (ChildContent is not null)
+    {
+        <div class="alert alert-success">
+            <span>@ChildContent</span>
+        </div>
+    }
+    else
+    {
+        <span>Hello, from empty fragment!</span>
+    }
+}
+<br />
 <button class="btn btn-danger" @onclick="OnButtonClick">Click Me</button>
+<_GrandChildComponent></_GrandChildComponent>
 
 @code {
     [Parameter]
@@ -19,5 +31,7 @@
     public RenderFragment? ChildContent { get; set; }
     [Parameter]
     public EventCallback OnButtonClick { get; set; }
+    [Parameter]
+    public RenderFragment? DangerContent { get; set; }
 }
 
