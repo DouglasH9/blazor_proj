@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Repository\" />
+    <None Remove="AutoMapper" />
+    <None Remove="Mapper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
+    <Folder Include="Mapper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\blazor_proj_models\blazor_proj_models.csproj" />
+    <ProjectReference Include="..\blazor_proj_dataAccess\blazor_proj_dataAccess.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
 </Project>

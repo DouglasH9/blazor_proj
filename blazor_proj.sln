@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blaor_proj_common", "blaor_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_dataAccess", "blazor_proj_dataAccess\blazor_proj_dataAccess.csproj", "{F732CA34-FDEC-49D5-8341-32711776274E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_models", "blazor_proj_models\blazor_proj_models.csproj", "{E88C7BD5-3009-44F9-89BD-77676C4A787F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F732CA34-FDEC-49D5-8341-32711776274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F732CA34-FDEC-49D5-8341-32711776274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F732CA34-FDEC-49D5-8341-32711776274E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88C7BD5-3009-44F9-89BD-77676C4A787F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88C7BD5-3009-44F9-89BD-77676C4A787F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88C7BD5-3009-44F9-89BD-77676C4A787F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88C7BD5-3009-44F9-89BD-77676C4A787F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
