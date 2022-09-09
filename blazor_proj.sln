@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_class_files", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_business", "blazor_proj_business\blazor_proj_business.csproj", "{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blaor_proj_common", "blaor_proj_common\blaor_proj_common.csproj", "{5FA71DCA-53C2-46FB-8A11-F0A29B8E1392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_dataAccess", "blazor_proj_dataAccess\blazor_proj_dataAccess.csproj", "{F732CA34-FDEC-49D5-8341-32711776274E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA71DCA-53C2-46FB-8A11-F0A29B8E1392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA71DCA-53C2-46FB-8A11-F0A29B8E1392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA71DCA-53C2-46FB-8A11-F0A29B8E1392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA71DCA-53C2-46FB-8A11-F0A29B8E1392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F732CA34-FDEC-49D5-8341-32711776274E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F732CA34-FDEC-49D5-8341-32711776274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F732CA34-FDEC-49D5-8341-32711776274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F732CA34-FDEC-49D5-8341-32711776274E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

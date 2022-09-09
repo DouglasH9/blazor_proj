@@ -40,6 +40,7 @@
     protected override async Task OnInitializedAsync()
     {
         EventType.Add("OnInitializedAsync was called.");
+        await Task.Delay(1000);
     }
 
     protected override void OnParametersSet()
@@ -50,15 +51,8 @@
     protected override async Task OnParametersSetAsync()
     {
         EventType.Add("OnParameterSetAsync was called");
+        await Task.Delay(1000);
     }
 
-    protected override void OnAfterRender(bool firstRender)
-    {
-        EventType.Add("OnAfterRenderAsync was called");
-    }
-
-    protected override Task OnAfterRenderAsync(bool firstRender)
-    {
-        EventType.Add("OnAfterRenderAsync was called");
-    }
+    
 }
