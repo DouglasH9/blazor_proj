@@ -7,3 +7,20 @@
         toastr.error(message, "Uh ohs!", { timeOut: 5000 });
     }
 }
+
+window.showSwal = (type, message) => {
+    if (type === "success") {
+        Swal.fire(
+            "Great success!!",
+            message,
+            "success"
+        )
+    }
+    if (type === "error") {
+        Swal.fire(
+            "Notification of your abject failure.",
+            message,
+            "error"
+        )
+    }
+}

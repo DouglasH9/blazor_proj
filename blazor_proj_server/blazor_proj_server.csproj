@@ -8,10 +8,12 @@
 
   <ItemGroup>
     <None Remove="Pages\Learn_Blazor\LearnBlazorComponents\" />
+    <None Remove="Helper\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\LearnBlazor\LearnBlazorComponents\" />
     <Folder Include="wwwroot\JS\" />
+    <Folder Include="Helper\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\blazor_proj_class_files\blazor_proj_class_files.csproj">

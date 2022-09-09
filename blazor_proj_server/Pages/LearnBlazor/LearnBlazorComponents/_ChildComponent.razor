@@ -1,4 +1,5 @@
-﻿
+﻿@inject IJSRuntime _jsruntime
+
 <div>
     <div class="alert alert-info">@Title</div>
 </div>
@@ -33,5 +34,10 @@ else
     public EventCallback OnButtonClick { get; set; }
     [Parameter]
     public RenderFragment? DangerContent { get; set; }
+
+    public async Task SweetAlertSuccess()
+    {
+        await _jsruntime.InvokeVoidAsync("showSwal", "success", "Ya done good, kid");
+    }
 }
 

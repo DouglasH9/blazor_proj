@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_client", "blazo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_class_files", "blazor_proj_class_files\blazor_proj_class_files.csproj", "{37F16B4F-EBAF-4ABE-974D-A76DC772872F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_proj_business", "blazor_proj_business\blazor_proj_business.csproj", "{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{37F16B4F-EBAF-4ABE-974D-A76DC772872F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37F16B4F-EBAF-4ABE-974D-A76DC772872F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37F16B4F-EBAF-4ABE-974D-A76DC772872F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3AEA3A-D92F-4099-B737-68BE8155EF2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

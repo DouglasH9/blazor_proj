@@ -4,7 +4,7 @@
 
 <CascadingValue Value="@MessageForGrandchild" Name="message">
     <CascadingValue Value="@LuckyNumber" Name="number">
-        <_ChildComponent OnButtonClick="ShowMessage" Title="This title is passed as a param from the parent component">
+        <_ChildComponent @ref="childComp" OnButtonClick="ShowMessage" Title="This title is passed as a param from the parent component">
             <ChildContent>Render frag from parent</ChildContent>
         </_ChildComponent>
     </CascadingValue>
@@ -14,9 +14,15 @@
 
 <_AnotherChildComponent placeholder="placeholder from parent"></_AnotherChildComponent>
 
+<div class="row mt-3">
+    <button style="width:150px" @onclick="()=>childComp.SweetAlertSuccess()" class="btn btn-info">Show Sweet Alert</button>
+</div>
+
 
 
 @code {
+
+    private _ChildComponent childComp;
 
     public string MessageForGrandchild { get; set; } = "Hello from your grandparent";
 
