@@ -16,11 +16,14 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="AutoMapper" />
     <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Pages\Category\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\LearnBlazor\LearnBlazorComponents\" />
     <Folder Include="wwwroot\JS\" />
     <Folder Include="Helper\" />
+    <Folder Include="Pages\Category\" />
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\blazor_proj_class_files\blazor_proj_class_files.csproj">
@@ -32,9 +35,13 @@
     <ProjectReference Include="..\blazor_proj_business\blazor_proj_business.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\blazor_proj_models\blazor_proj_models.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\JS\" />
+    <Content Remove="wwwroot\Images\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />

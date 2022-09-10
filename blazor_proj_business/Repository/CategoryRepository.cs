@@ -22,7 +22,7 @@ namespace blazor_proj_business.Repository
         {
             var obj = _mapper.Map<CategoryDto, Category>(objDto);
 
-            obj.DateCreated = DateTime.Now;
+            obj.DateCreated = DateTime.UtcNow;
 
             var addedObj = _db.Categories.Add(obj);
             _db.SaveChanges();
