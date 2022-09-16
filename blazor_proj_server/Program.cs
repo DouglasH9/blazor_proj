@@ -16,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(
     builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 

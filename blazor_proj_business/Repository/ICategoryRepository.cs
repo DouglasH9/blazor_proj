@@ -5,12 +5,12 @@ namespace blazor_proj_business.Repository
 {
     public interface ICategoryRepository
     {
-        public CategoryDto Create(CategoryDto category);
-        public CategoryDto Update(CategoryDto category);
-        public int Delete(int id);
-        public CategoryDto Get(int id);
+        public Task<CategoryDto> Create(CategoryDto category);
+        public Task<CategoryDto> Update(CategoryDto category);
+        public Task<int> Delete(int id);
+        public Task<CategoryDto> Get(int id);
 
-        public IEnumerable<CategoryDto> GetAll();
+        public Task<IEnumerable<CategoryDto>> GetAll();
     }
 }
 
